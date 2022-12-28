@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+body {
+    display: flex;
+
+}
+
+#pageLeft {
+    width: 40vw;
+    background-image: url("img/photo-1585202900225-6d3ac20a6962.avif");
+    background-position: center;
+    background-size: auto;
+}
+
+#pageRight {
+    width: 60vw;
+}
+
