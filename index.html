@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id = "pageLeft">
-        <section id="footer">Photos by xyxy</section>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="pageLeft">
+      <div id="odin-logo">
+        <img src="img/odin-lined.png" alt="" />
+        <h1>ODIN</h1>
+      </div>
+      <div id="footer">
+        Photo by
+        <a href="https://unsplash.com/@haliewestphoto">Halie West</a>
+        on
+        <a href="https://unsplash.com/photos/25xggax4bSA">unsplash.com</a>
+      </div>
     </div>
 
+    <div id="pageRight">
+      <section>
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started!
+        </p>
+        <p>You know you want to.</p>
+      </section>
 
-    <div id = "pageRight">
-        <section>
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started!</p>
-            <p>You know you want to.</p>
+      <section>
+        <form action="#" method="post">
+          <div class="formRow">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first_name" />
 
-        </section>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last_name" />
+          </div>
+          <div class="formRow">
+            <label for="user_email">E-mail:</label>
+            <input type="email" id="user_email" />
 
-        <section>
-            <form action="#" method="post">
-                <div class="formRow">
+            <label for="user_phone">Last Name:</label>
+            <input type="tel" id="user_phone" />
+          </div>
+          <div class="formRow">
+            <label for="password">Password:</label>
+            <input type="password" id="password" />
 
-                    <label for="first-name">First Name:</label>
-                    <input type="text" id="first_name">
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" />
+          </div>
+        </form>
+      </section>
 
-                    <label for="last-name">Last Name:</label>
-                    <input type="text" id="last_name">
-
-                </div>
-                <div class="formRow">
-
-                    <label for="user_email">E-mail:</label>
-                    <input type="email" id="user_email">
-
-                    <label for="user_phone">Last Name:</label>
-                    <input type="tel" id="user_phone">
-
-                </div>
-                <div class="formRow">
-
-                    <label for="password">Password:</label>
-                    <input type="password" id="password">
-
-                    <label for="confirm_password">Confirm Password:</label>
-                    <input type="password" id="confirm_password">
-
-                </div>
-            </form>
-        </section>
-            
-        <section>
-            <button>Create Account</button>
-            <div id="loginLink">
-                <p>Already have account?</p>
-                <a href="#">Click Here</a>
-            </div>
-
-        </section>
-
+      <section>
+        <button>Create Account</button>
+        <div id="loginLink">
+          <p>Already have account?</p>
+          <a href="#">Click Here</a>
+        </div>
+      </section>
     </div>
-
-</body>
+  </body>
 </html>

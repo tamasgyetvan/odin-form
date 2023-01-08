@@ -1,20 +1,59 @@
-html, body {
-    height: 100%;
-    margin: 0px;
+* {
+  margin: 0px;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  padding: 0px;
 }
 body {
-    display: flex;
-
+  display: flex;
 }
 
 #pageLeft {
-    width: 40vw;
-    background-image: url("img/photo-1585202900225-6d3ac20a6962.avif");
-    background-position: center;
-    background-size: auto;
+  width: 25vw;
+  background-image: url("img/photo-1585202900225-6d3ac20a6962.avif");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+#odin-logo {
+  display: flex;
+  background-color: rgba(22, 18, 18, 0.6);
+  height: max(90px, 10vw);
+  margin-top: 25vh;
+  padding: 15px;
+  justify-content: center;
 }
 
 #pageRight {
-    width: 60vw;
+  width: 75vw;
 }
 
+#odin-logo > img {
+  max-width: 100%;
+}
+
+#odin-logo > h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+}
+
+#footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 25vw;
+  color: white;
+}
+
+a:visited {
+  color: inherit;
+}
