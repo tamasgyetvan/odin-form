@@ -30,10 +30,6 @@ body {
   justify-content: center;
 }
 
-#pageRight {
-  width: 75vw;
-}
-
 #odin-logo > img {
   max-width: 100%;
 }
@@ -56,4 +52,19 @@ body {
 
 a:visited {
   color: inherit;
+}
+
+#pageRight {
+  width: 75vw;
+}
+
+#textRight {
+  background-color: blue;
+  height: 35vh;
+  font-size: 1.5em;
+  padding-right: 20vw;
+}
+
+#textRight > p {
+  padding: 50px;
 }
